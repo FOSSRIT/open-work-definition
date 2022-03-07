@@ -1,4 +1,4 @@
-**Why Are We Using The Term** **Open Work?**
+## **Why Are We Using The Term** **Open Work?**
 
 People produce and collaborate on all different types of work within academia and beyond. Different types of works can be released and developed among communities of practice in different ways. To treat each type of Open Work as its own silo hinders the ability for these works to be used interchangeably among each other. We use the term Open Work to talk about a larger theory of practice in which Works of all types are developed, distributed, and collaborated upon.
 

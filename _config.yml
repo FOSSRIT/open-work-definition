@@ -1,2 +1,6 @@
 theme: jekyll-theme-minimal
 title: Open Work Definition
+owner: {
+  url: "https://openr.it",
+  name: "Open@RIT"
+}
