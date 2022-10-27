@@ -51,6 +51,6 @@ The intellectual “Family Tree” of the term Open Work includes examples from 
 
 Open Work Definition 0.1 was written by Stephen Jacobs, Director, Open@RIT with contributions from Michael Nolan, Associate Director, Open@RIT, and Karsten Wade, Principal Community Architect, Red Hat, Inc.
 
-Please share your comments with us at (email address TBD, linked to the open work domain?) 
+Please share your comments with us at <a href="mailto:mpnopen@rit.edu">mpnopen@rit.edu</a>.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
