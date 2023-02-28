@@ -1,0 +1,63 @@
+<nav class="hidden lg:block z-50 bg-white fixed top-0 left-0 w-full">
+  <div class="m-auto max-w-6xl border-black border-b-[2px] border-solid px-12 h-16 flex items-center justify-between">
+    <div class="sm:flex justify-between inner--large">
+      <p class="font-bold whitespace-nowrap select-none">Open Work <br>Definition</p>
+      <ul class="subtitle font-medium text-sm whitespace-nowrap text-center flex space-x-4 items-center">
+        <li><a class="p-1 no-underline text-[#252525] hover:opacity-60 transition-opacity ease-in-out duration-150"
+            href="#goal">Goal</a></li>
+        <li><a class="p-1 no-underline text-[#252525] hover:opacity-60 transition-opacity ease-in-out duration-150"
+            href="#definition">Definition</a></li>
+        <li><a class="p-1 no-underline text-[#252525] hover:opacity-60 transition-opacity ease-in-out duration-150"
+            href="#roots">Roots</a></li>
+        <li><a class="p-1 no-underline text-[#252525] hover:opacity-60 transition-opacity ease-in-out duration-150"
+            href="#types-of-open-work">Types</a></li>
+        <li><a class="p-1 no-underline text-[#252525] hover:opacity-60 transition-opacity ease-in-out duration-150"
+            href="#open@rit">Open@RIT</a></li>
+        <li><a class="p-1 text-[#252525] hover:opacity-60 transition-opacity ease-in-out duration-150"
+            href="https://github.com/FOSSRIT/open-work-definition/">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- mobile version -->
+<div id="mobile-menu-wrapper"
+  class="w-full border-black border-b-[2px] border-solid lg:hidden z-50 fixed top-0 right-0 px-6 sm:px-12 h-16 bg-white flex items-center justify-between">
+  <p class="bg-white font-bold whitespace-nowrap select-none">Open Work <br>Definition</p>
+  <input class="hidden mobile-menu-toggle" type="checkbox" id="mobile-menu-toggle" />
+  <label class="bg-white hamb" for="mobile-menu-toggle"><span class="hamb-line"></span></label>
+  <!-- nav drawer -->
+  <nav class="pt-8 p-6 sm:p-12 border-black border-b-[2px] border-solid" id="mobile-menu">
+    <ul class="subtitle font-medium text-lg space-y-6 py-4 flex-col justify-start text-[#363636]">
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#goal">Goal of Open Work</a></li>
+      <hr class="border-[#D4D4D4] border-b-[1.2px]">
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#definition">Definition of Open Work</a>
+      </li>
+      <hr class="border-[#D4D4D4] border-b-[1.2px]">
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#roots">Roots of Open Work</a></li>
+      <hr class="border-[#D4D4D4] border-b-[1.2px]">
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#types-of-open-work">Types of Open
+          Work</a></li>
+      <hr class="border-[#D4D4D4] border-b-[1.2px]">
+      <li><a onclick="closeMobileMenuOnNavigate()" class="no-underline" href="#open@rit">Open@RIT</a></li>
+      <hr class="border-[#D4D4D4] border-b-[1.2px]">
+      <li><a class="" href="https://github.com/FOSSRIT/open-work-definition/">GitHub</a></li>
+    </ul>
+  </nav>
+</div>
+
+<script>
+
+  // close mobile menu when you click outside of it
+  // https://stackoverflow.com/a/49159229
+  window.addEventListener('click', function (e) {
+    if (!document.getElementById('mobile-menu-wrapper').contains(e.target) && document.getElementById("mobile-menu-toggle").checked == true) {
+      document.getElementById("mobile-menu-toggle").checked = false;
+    }
+  })
+
+  // close mobile menu on navigate
+  function closeMobileMenuOnNavigate() {
+    document.getElementById("mobile-menu-toggle").checked = false;
+  }
+</script>

@@ -1,56 +1,750 @@
-## **Why Are We Using The Term** **Open Work?**
+---
+layout: default
+title: "Home"
+---
 
-People produce and collaborate on all different types of work within academia and beyond. Different types of works can be released and developed among communities of practice in different ways. To treat each type of Open Work as its own silo hinders the ability for these works to be used interchangeably among each other. We use the term Open Work to talk about a larger theory of practice in which Works of all types are developed, distributed, and collaborated upon.
+<!-- Hero -->
+<section class="relative p-6 sm:p-12">
+    <img class="absolute z-[-1] top-[20px] left-[-80px] max-w-[80rem]" src="./assets/img/background-shapes/hero-bg.svg"
+        alt="">
+    <div class="flex justify-start items-center py-24 pt-12 sm:pt-20">
+        <div class="inner--large">
+            <h1>Open Work<br>Definition</h1>
+            <p class="text-2xl subtitle font-normal">An inclusive definition<br>for all kinds of Work.</p>
+            <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-6 mb-12"></a>
+            <p class="text-sm">This project is maintained by <a href="https://openr.it/">Open@RIT</a><br>Hosted on
+                GitHub Pages</p>
+        </div>
+    </div>
+</section>
 
-## **Open Work Definition Version 0.1**
+<hr id="goal" class="section-divider bg-black border-none h-[2px] mt-[1rem]">
 
-An **Open Work** delineates the meaning of “**Open**” with respect to work products and projects that are released into the public domain or under a license recognized by an entity such as, but not limited to, the[ Open Source Initiative](https://opensource.org/licenses) (OSI),[ the Free Software Foundation GNU](https://www.gnu.org/licenses/gpl-faq.html),[ the Creative Commons](https://creativecommons.org/) (CC) or[ the Open Knowledge Foundation](https://opendefinition.org/) (OKF) with the intent of promoting a robust community of collaboration around the work itself and other work that it may interoperate with. 
+<!-- Goal of Open Work -->
+<section class="p-6 sm:p-12">
+    <div class="relative inner--small grid lg:grid-cols-2 justify-center lg:gap-12">
+        <img class="absolute z-[-1] top-[-25%] left-[-34%] sm:top-[-28%] sm:left-[-10%] lg:top-[-51%] lg:left-[-20%] max-w-[80rem]"
+            src="./assets/img/background-shapes/open-work-goal-bg.svg" alt="">
+        <div class="">
+            <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br><b>Open Work</b>?</h2>
+            <p class="subtitle">Goal of Open Work</p>
+            <hr class="subtitle-divider">
+            <p >People produce and collaborate on all different types of work within academia and beyond. Different types
+                of
+                works can be released and developed among communities of practice in different ways.
+                <br><br>
+                To treat each type of Open Work as its own silo hinders the ability for these works to be used
+                interchangeably among each other.
+                <br><br>
+                We use the term Open Work to talk about a larger theory of practice in which works of all types are
+                developed, distributed, and collaborated upon.
+            </p>
+        </div>
+        <img class="lg:place-self-end" src="./assets/img/illustrations/goal-of-open-work.svg" alt="">
+    </div>
+</section>
 
-This essential meaning of “Open” aligns with that in the[ Open Source Definition](https://en.wikipedia.org/wiki/The_Open_Source_Definition) and is synonymous with “free” or “libre” as in the[ Free Software Definition](https://en.wikipedia.org/wiki/The_Free_Software_Definition) and[ Definition of Free Cultural Works](https://en.wikipedia.org/wiki/Definition_of_Free_Cultural_Works).
+<hr id="definition" class="section-divider">
 
-The term “**Work”** will be used to denote the item or piece of knowledge being transferred.
+<!-- Definition of Open Work -->
+<section class="relative p-6 sm:p-12">
+    <img class="absolute z-[-1] scale-125 top-20" src="assets/img/background-shapes/open-def-bg.svg" alt="">
+    <h2 class="text-center mb-10 sm:mb-16"><b>Open Work</b> Definition Version 0.1</h2>
+    <div class="inner--small flex justify-center flex-col m-auto">
+        <div class="hidden sm:block">
+            <div class="ring-2 ring-black border-b-0 rounded-tr-2xl rounded-tl-2xl bg-[#C5CFD6] h-8 w-full flex items-center">
+                <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-6 h-[11px] w-[11px] rounded-full"></div>
+                <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
+                <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
+            </div>
+            <div class="ring-2 ring-black rounded-b-3xl rounded-bl-3xl h-fit w-full border-[#F2F2F2] border-[16px]">
+                <div class="bg-white p-5 sm:p-8 lg:p-12 scale-[101%] rounded-lg">
+    
+                    <h3 class="subtitle">Definition of Open Work</h3>
+                    <br>
+                    <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
+                        released into the public domain or under a license recognized by an entity such as, but not limited
+                        to,
+                        the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the
+                        Open Knowledge Foundation (OKF) with the intent of promoting a robust community of collaboration
+                        around
+                        the work itself and other work that it may interoperate with.</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="block sm:hidden">
+            <h3 class="subtitle">Definition of Open Work</h3>
+            <br>
+            <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
+                released into the public domain or under a license recognized by an entity such as, but not limited
+                to,
+                the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the
+                Open Knowledge Foundation (OKF) with the intent of promoting a robust community of collaboration
+                around
+                the work itself and other work that it may interoperate with.</p>
 
-The term **license** refers to the legal conditions under which the work is provided.
+        </div>
+        <img class="hidden sm:block z-10 mt-[-2.5rem]" src="./assets/img/illustrations/three-people-talking.svg" alt="">
+    </div>
 
-The term **public domain** denotes the absence of copyright and similar restrictions, whether by default or waiver of all such conditions.
+    <!-- definition of... mobile accordions -->
+    <!-- accordions from tw-elements library -->
+    <div class="block lg:hidden mt-14 sm:mt-24 max-w-lg m-auto accordion space-y-6" id="accordionCol3">
+        <!-- definition of work -->
+        <div
+            class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+            <h2 class="mb-0" id="flush-headingWorkDef">
+                <button
+                    class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                    type="button" data-te-collapse-collapsed data-te-collapse-init
+                    data-te-target="#flush-collapseWorkDef" aria-expanded="false" aria-controls="flush-collapseWorkDef">
+                    <img class="mr-4 w-8" src="./assets/img/icons/documents-2.svg" alt="">
+                    Definition of Work
+                    <span
+                        class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </button>
+            </h2>
+            <div id="flush-collapseWorkDef" class="!visible hidden border-0" data-te-collapse-item
+                aria-labelledby="flush-headingWorkDef" data-te-parent="#accordionCol3">
+                <div class="py-4 px-5">
+                    <p>A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
+                        many other things.
+                        <br><br>
+                        <a href="#types-of-open-work">See below</a> for common types of Open Works.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-The goal of the defining “Open Work” is to provide a meta, or unifying, term across the uses of Open Science, Open Research, Open Scholarship and other terms that attempt to encompass (yet end up excluding some of) the practices and spirit of the following
+        <!-- definition of license -->
+        <div
+            class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+            <h2 class="mb-0" id="flush-headingLicenseDef">
+                <button
+                    class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                    type="button" data-te-collapse-collapsed data-te-collapse-init
+                    data-te-target="#flush-collapseLicenseDef" aria-expanded="false"
+                    aria-controls="flush-collapseWorkDef">
+                    <img class="mr-4 w-8" src="./assets/img/icons/no-copyright.svg" alt="">
+                    Definition of License
+                    <span
+                        class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </button>
+            </h2>
+            <div id="flush-collapseLicenseDef" class="!visible hidden border-0" data-te-collapse-item
+                aria-labelledby="flush-headingLicenseDef" data-te-parent="#accordionCol3">
+                <div class="py-4 px-5">
+                    <p>A <b>License</b>, in this context, is a document describing the terms and conditions that one is
+                        allowed to use a <b>Work</b>.
+                        <br><br>
+                        A <b>License</b> is necessary for any <b>Work</b> to be considered
+                        <b>Open</b> unless that work is <b>Public Domain</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-* Open Access Journals
-* Open Data
-* Open Design
-* Open Educational Resources
-* Open Hardware
-* Open Innovation
-* Open Intellectual Property
-* Open Research
-* Open Scholarship
-* Open Science
-* Open Source Software
+        <!-- definition of open -->
+        <div
+            class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+            <h2 class="mb-0" id="flush-headingOpenDef">
+                <button
+                    class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                    type="button" data-te-collapse-collapsed data-te-collapse-init
+                    data-te-target="#flush-collapseOpenDef" aria-expanded="false" aria-controls="flush-collapseWorkDef">
+                    <img class="mr-4 w-8" src="./assets/img/icons/documents.svg" alt="">
+                    Definition of Open
+                    <span
+                        class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </button>
+            </h2>
+            <div id="flush-collapseOpenDef" class="!visible hidden border-0" data-te-collapse-item
+                aria-labelledby="flush-headingOpenDef" data-te-parent="#accordionCol3">
+                <div class="py-4 px-5">
+                    <p>As with most definitions of Open, our definition specifically focuses on the licensing and
+                        redistribution of a Work. That work must be available and licensed so anyone can view it,
+                        redistribute it, and modify it openly, in compliance with whatever license has been applied to
+                        it.
+                        <br><br>
+                        For more details on the exact definition of Open - See the <a
+                            href="http://opendefinition.org/od/2.1/en/">OKF's definition of “Open.”</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 
-A secondary goal is to reduce the use (and dilution) of “Open Source” (a term and definition specific to software) in application to domains to which it doesn’t apply, or it’s use as a verb; such as in “I’d like to “Open Source” this.” no matter what the “this” in question happens to be.
+        <!-- definition of public domain -->
+        <div
+            class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+            <h2 class="mb-0" id="flush-headingPubDomainDef">
+                <button
+                    class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                    type="button" data-te-collapse-collapsed data-te-collapse-init
+                    data-te-target="#flush-collapsePubDomainDef" aria-expanded="false"
+                    aria-controls="flush-collapseWorkDef">
+                    <img class="mr-4 w-8" src="./assets/img/icons/no-copyright-2.svg" alt="">
+                    Definition of Public Domain
+                    <span
+                        class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </span>
+                </button>
+            </h2>
+            <div id="flush-collapsePubDomainDef" class="!visible hidden border-0" data-te-collapse-item
+                aria-labelledby="flush-headingPubDomainDef" data-te-parent="#accordionCol3">
+                <div class="py-4 px-5">
+                    <p>When a <b>Work</b> has no copyright, it is available to the public. This means that no individual
+                        has
+                        any ownership over that work. A <b>Public Domain Work</b> cannot be <b>Licensed</b> as there is
+                        no
+                        copyright holder.
+                        <br><br>
+                        <b>A Public Domain Work</b> is considered one form of an <b>Open Work</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-**The Roots of “Open Work”**
+    </div>
 
-The intellectual “Family Tree” of the term Open Work includes examples from technology, science, and the arts.
+    <!-- definition of... cards -->
+    <div class="hidden lg:grid grid-cols-2 mt-28 space-x-0 justify-between gap-8 lg:gap-14">
+        <div class="relative bg-[#F2F2F2] rounded-3xl px-8 py-10 pr-16">
+            <div class="flex flex-col items-start align-top">
+                <h3 class="mb-2 subtitle">Definition of Work</h3>
+                <p>A <b>Work</b> is any piece of copyrightable material. This could be software, writing, music, and
+                    many other things.
+                    <br><br>
+                    <a href="#types-of-open-work">See below</a> for common types of Open Works.
+                </p>
+                <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/documents-2.svg" alt="">
+                <!-- card icon -->
+            </div>
+        </div>
+        <div class="relative bg-[#F2F2F2] rounded-3xl px-8 py-10 pr-16">
+            <div class="flex flex-col items-start align-top">
+                <h3 class="mb-2 subtitle">Definition of License</h3>
+                <p>A <b class="font-medium">License</b>, in this context, is a document describing the terms and
+                    conditions that one is
+                    allowed to use a <b>Work</b>.
+                    <br><br>
+                    A <b>License</b> is necessary for any <b>Work</b> to be considered
+                    <b>Open</b> unless that work is <b>Public Domain</b>.
+                </p>
+                <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/no-copyright.svg" alt="">
+                <!-- card icon -->
+            </div>
+        </div>
 
-**Technology:**
+    </div>
+    <div class="hidden lg:grid grid-cols-2 space-x-0 justify-between gap-8 lg:gap-14 lg:space-y-8">
+        <div class="relative bg-[#F2F2F2] rounded-3xl px-8 py-10 pr-16 mt-8">
+            <div class="flex flex-col items-start align-top">
+                <h3 class="mb-2 subtitle">Definition of Open</h3>
+                <p>As with most definitions of Open, our definition specifically focuses on the licensing and
+                    redistribution of a Work. That work must be available and licensed so anyone can view it,
+                    redistribute it, and modify it openly, in compliance with whatever license has been applied to it.
+                    <br><br>
+                    For more details on the exact definition of Open - See the <a
+                        href="http://opendefinition.org/od/2.1/en/">OKF's definition of “Open.”</a>
+                </p>
+                <img class="absolute top-[-12px] right-[-12px] w-14" src="./assets/img/icons/documents.svg" alt="">
+                <!-- card icon -->
+            </div>
+        </div>
 
-* [Distribution Religion](http://criticalartware.net/DistributionReligion/DistributionReligion.pdf): Arguably the first “Open Hardware” license, from the manual/instructions for the[ Sandin Image Processor](https://en.wikipedia.org/wiki/Sandin_Image_Processor)) (1976-1978)
-* [CopyLeft](https://en.wikipedia.org/wiki/Copyleft):[ Li-Chen Wang](https://en.wikipedia.org/wiki/Li-Chen_Wang)'s Palo Alto[ Tiny BASIC](https://en.wikipedia.org/wiki/Tiny_BASIC) (1976)
-* [Free Software, the FSF and the GPL:](https://www.fsf.org/)[ Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) et al beginning in 1984-Present
-* [Open Source](https://opensource.com/article/18/2/coining-term-open-source-software): The term coined by[ Christine Peterson](https://opensource.com/users/christine-peterson) and the creation of the[ Open Software Initiative](https://opensource.org/history), 1998
+        <div class="relative bg-[#F2F2F2] rounded-3xl px-8 py-10 pr-16 mt-0 lg:mt-8">
+            <div class="flex flex-col items-start align-top">
+                <h3 class="mb-2 subtitle">Definition of Public Domain</h3>
+                <p>When a <b>Work</b> has no copyright, it is available to the public. This means that no individual has
+                    any ownership over that work. A <b>Public Domain Work</b> cannot be <b>Licensed</b> as there is no
+                    copyright holder.
+                    <br><br>
+                    <b>A Public Domain Work</b> is considered one form of an <b>Open Work</b>.
+                </p>
+                <img class="absolute top-[-12px] right-[-12px] w-12" src="./assets/img/icons/no-copyright-2.svg" alt="">
+                <!-- card icon -->
+            </div>
+        </div>
+    </div>
+</section>
 
-**Science:**
+<hr id="roots" class="section-divider">
 
-* “The Scientific Method,” dated at any point from the time of Aristotle to the early 1900s, depending on which history of the practices one subscribes to.
+<!-- The Roots of Open Work -->
+<section class="relative p-6 sm:p-12">
+    <img class="w-[100rem] absolute z-[-1] right-[-4%] bottom-[-150px]"
+        src="./assets/img/background-shapes/open-work-roots-bg.svg" alt="">
+    <h2 class="text-center">The <b>Roots</b> of "Open Work"</h2>
+    <p class="mb-20 max-w-sm text-center m-auto">The intellectual “Family Tree” of the term Open Work includes examples
+        from
+        technology, science, and the arts.</p>
+    <div class="inner--large grid lg:grid-cols-7 justify-center lg:gap-4 lg:space-y-0 space-y-12">
+        <div
+            class="relative col-span-3 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] lg:pr-6">
+            <p class="subtitle">Technology</p>
+            <hr class="subtitle-divider">
+            <p><a href="http://criticalartware.net/DistributionReligion/DistributionReligion.pdf">Distribution
+                    Religion</a>: Arguably the first “Open Hardware” license, from the manual/instructions for the
+                <a href="https://en.wikipedia.org/wiki/Sandin_Image_Processor">Sandin Image Processor</a>) (1976-1978)
+                <br><br>
+                <a href="https://en.wikipedia.org/wiki/Li-Chen_Wang">CopyLeft: Li-Chen Wang</a>'s Palo Alto <a
+                    href="https://en.wikipedia.org/wiki/Tiny_BASIC">Tiny BASIC</a> (1976)
+                <br><br>
+                <a href="https://www.fsf.org/">Free Software, the FSF and the GPL: Richard Stallman</a> et al beginning
+                in 1984-Present
+                <br><br>
+                <a href="https://opensource.com/article/18/2/coining-term-open-source-software">Open Source</a>: The
+                term coined by <a href="https://opensource.com/users/christine-peterson">Christine Peterson</a> and the
+                creation of the <a href="https://opensource.org/history">Open Software Initiative</a>,
+                1998
+            </p>
+        </div>
+        <div
+            class="relative col-span-2 after:absolute after:hidden lg:after:block after:top-0 after:right-0 after:border-r-2 after:border-black after:h-[70%] lg:pr-6">
+            <p class="subtitle">Literature and the Arts</p>
+            <hr class="subtitle-divider">
+            <p>Umberto Eco's “<a
+                    href="https://www.researchgate.net/publication/280730233_Text_and_Meaning_in_Umberto_Eco's_The_Open_Work">The
+                    Open Work</a>” is art with “two constituents: a multiplicity of meanings and the
+                participation
+                of the audience."
+            </p>
+        </div>
+        <div class="col-span-2">
+            <p class="subtitle">Science</p>
+            <hr class="subtitle-divider">
+            <p>The intellectual “Family Tree” of the term Open Work includes examples from technology, science, and the
+                arts.
+            </p>
+        </div>
+    </div>
+</section>
 
-**Literature and the Arts**
+<hr id="types-of-open-work" class="section-divider">
 
-* Umberto Eco's "[The Open Work](https://www.researchgate.net/publication/280730233_Text_and_Meaning_in_Umberto_Eco's_The_Open_Work)" is art with "two constituents: a multiplicity of meanings and the participation of the audience.
+<!-- Types of open work -->
+<section class="p-6 sm:p-12 relative pb-20">
+    <img class="absolute z-[-1] scale-[1] translate-x-[-80px] top-20"
+        src="assets/img/background-shapes/types-of-open-work-bg.svg" alt="">
+    <h2 class="text-center mb-14">Types of <b>Open Work</b></h2>
 
-Open Work Definition 0.1 was written by Stephen Jacobs, Director, Open@RIT with contributions from Michael Nolan, Associate Director, Open@RIT, and Karsten Wade, Principal Community Architect, Red Hat, Inc.
+    <!-- accordions from tw-elements library -->
+    <div class="max-w-lg lg:max-w-none lg:grid grid-cols-2 gap-16 inner--small justify-between">
+        <div class="accordion space-y-6" id="typesOfOpenWorkCol1">
 
-Please share your comments with us at <a href="mailto:mpnopen@rit.edu">mpnopen@rit.edu</a>.
+            <!-- open ed resources -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenEd">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenEd" aria-expanded="false"
+                        aria-controls="flush-collapseOpenEd">
+                        <img class="mr-4" src="./assets/img/icons/educational-resources.svg" alt="">
+                        Open Educational Resources
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenEd" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenEd" data-te-parent="#typesOfOpenWorkCol1">
+                    <div class="py-4 px-5">
+                        <p>OER are openly licensed educational materials — everything from a single lesson plan to an
+                            entire
+                            textbook — that are free to use, customize, and share.
+                            <br>
+                            <br>
+                            <a href="https://www.oercommons.org/oer-101" rel="noopener noreferrer">OER
+                                Commons</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            <!-- open innovation -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenInnovation">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenInnovation" aria-expanded="false"
+                        aria-controls="flush-collapseOpenInnovation">
+                        <img class="mr-4" src="./assets/img/icons/innovation.svg" alt="">
+                        Open Innovation
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenInnovation" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenInnovation" data-te-parent="#typesOfOpenWorkCol1">
+                    <div class="py-4 px-5">
+                        <p>"A distributed innovation process based on purposively managed knowledge flows across
+                            organizational
+                            boundaries, using pecuniary and non-pecuniary mechanisms in line with the organization's
+                            business
+                            model". <sup><a
+                                    href="https://en.wikipedia.org/wiki/Open_innovation#cite_note-4">[4]</a></sup> —
+                            Henry Chesbrough
+                            <br>
+                            <br>
+                            This more recent definition acknowledges that open innovation is not solely firm-centric: it
+                            also
+                            includes <a href="https://en.wikipedia.org/wiki/Creative_consumer"> creative consumers</a>
+                            <a href="https://en.wikipedia.org/wiki/Open_innovation#cite_note-5"><sup>[5]</sup></a> and
+                            communities of user innovators. <a
+                                href="https://en.wikipedia.org/wiki/Open_innovation#cite_note-6"><sup>[6]</sup></a>
+                            <br>
+                            <br>
+                            <a href="http://openinnovation.net/about-2/open-innovation-definition/"
+                                rel="noopener noreferrer">Open Innovation Community</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open source software -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenSoftware">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenSoftware" aria-expanded="false"
+                        aria-controls="flush-collapseOpenSoftware">
+                        <img class="mr-4" src="./assets/img/icons/software.svg" alt="">
+                        Open Source Software
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenSoftware" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenSoftware" data-te-parent="#typesOfOpenWorkCol1">
+                    <div class="py-4 px-5">
+                        <p>Open source software is code that is designed to be publicly accessible—anyone can see,
+                            modify,
+                            and
+                            distribute the code as they see fit.
+                            <br>
+                            <br>
+                            <a href="https://opensource.org/osd/"> OSI Open Source Definition</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open scholarship -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenScholarship">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenScholarship" aria-expanded="false"
+                        aria-controls="flush-collapseOpenScholarship">
+                        <img class="mr-4" src="./assets/img/icons/scholarship.svg" alt="">
+                        Open Scholarship
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenScholarship" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenScholarship" data-te-parent="#typesOfOpenWorkCol1">
+                    <div class="py-4 px-5">
+                        <p>Open Scholarship is defined by the Association of Research Libraries (ARL) as encompassing
+                            open
+                            access, open data, open educational resources, and all other forms of openness in the
+                            scholarly
+                            and
+                            research environment, is changing how knowledge is created and shared.
+                            <br>
+                            <br>
+                            <a href="https://guides.library.pdx.edu/c.php?g=931273&p=6711316">Portland State University
+                                Library
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open data/open knowledge -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenData">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenData" aria-expanded="false"
+                        aria-controls="flush-collapseOpenData">
+                        <img class="mr-4" src="./assets/img/icons/data.svg" alt="">
+                        Open Data/Open Knowledge
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenData" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenData" data-te-parent="#typesOfOpenWorkCol1">
+                    <div class="py-4 px-5">
+                        <p>A data set that is released freely for any to use and modify.
+                            <br>
+                            <br>
+                            <a href="https://okfn.org/opendata/">OKF Open Data Definition</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion mt-6 lg:mt-0 space-y-6" id="typesOfOpenWorkCol2">
+            <!-- open hardware -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenHardware">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenHardware" aria-expanded="false"
+                        aria-controls="flush-collapseOpenHardware">
+                        <img class="mr-4" src="./assets/img/icons/hardware.svg" alt="">
+                        Open Hardware
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenHardware" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenHardware" data-te-parent="#typesOfOpenWorkCol2">
+                    <div class="py-4 px-5">
+                        <p>Open source hardware is hardware whose design is made publicly available so that anyone can
+                            study,
+                            modify, distribute, make, and sell the design or hardware based on that design.
+                            <br>
+                            <br>
+                            <a href="https://www.oshwa.org/definition/">Open Source Hardware Association</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open science -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenHardware">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenScience" aria-expanded="false"
+                        aria-controls="flush-collapseOpenScience">
+                        <img class="mr-4" src="./assets/img/icons/science.svg" alt="">
+                        Open Science
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenScience" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenScience" data-te-parent="#typesOfOpenWorkCol2">
+                    <div class="py-4 px-5">
+                        <p>Open science encompasses unhindered access to scientific articles, access to data from public research, and collaborative research enabled by ICT tools and incentives.                            <br>
+                            <br>
+                            <a href="https://www.oecd.org/sti/inno/open-science.htm">OECD Open Science Definition</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open design -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenDesign">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenDesign" aria-expanded="false"
+                        aria-controls="flush-collapseOpenDesign">
+                        <img class="mr-4" src="./assets/img/icons/design.svg" alt="">
+                        Open Design
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenDesign" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenDesign" data-te-parent="#typesOfOpenWorkCol2">
+                    <div class="py-4 px-5">
+                        <p>Any piece of design work released freely for anyone to use or modify.
+                            <br>
+                            <br>
+                            <a
+                                href="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/blob/master/open.design_definition/open.design.definition.md">Open
+                                Design Working Group Definition</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open research -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenResearch">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenResearch" aria-expanded="false"
+                        aria-controls="flush-collapseOpenResearch">
+                        <img class="mr-4" src="./assets/img/icons/research.svg" alt="">
+                        Open Research
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenResearch" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenResearch" data-te-parent="#typesOfOpenWorkCol2">
+                    <div class="py-4 px-5">
+                        <p>Open research comprises openness throughout the research cycle through collaborative working
+                            and
+                            sharing and making research methodology, software, code, and equipment freely available
+                            online,
+                            along with instructions for using it.
+                            <br>
+                            <br>
+                            Open research includes making publications freely available online (open access) in addition
+                            to
+                            the underlying research data (open data).
+                            <br>
+                            <br>
+                            <a href="http://www.exeter.ac.uk/research/openresearch/about/explained/">University of
+                                Exeter
+                                (UK)
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- open access journals -->
+            <div
+                class="accordion-item rounded-none border border-t-0 border-l-0 border-r-0 border-neutral-200 bg-[#F2F2F2]">
+                <h2 class="mb-0" id="flush-headingOpenJournals">
+                    <button
+                        class="accordion-button accordion-button--gray group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-left text-base transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-non"
+                        type="button" data-te-collapse-collapsed data-te-collapse-init
+                        data-te-target="#flush-collapseOpenJournals" aria-expanded="false"
+                        aria-controls="flush-collapseOpenJournals">
+                        <img class="mr-4" src="./assets/img/icons/journals.svg" alt="">
+                        Open Access Journals
+                        <span
+                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-[350ms] origin-center ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="h-6 w-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOpenJournals" class="!visible hidden border-0" data-te-collapse-item
+                    aria-labelledby="flush-headingOpenJournals" data-te-parent="#typesOfOpenWorkCol2">
+                    <div class="py-4 px-5">
+                        <p>Open Access is the free, immediate, online availability of research articles combined with
+                            the
+                            rights to use these articles fully in the digital environment.
+                            <br>
+                            <br>
+                            Open Access is the needed modern update for the communication of research that fully
+                            utilizes
+                            the Internet for what it was originally built to do—accelerate research. <br>
+                            <br>
+                            <br>
+                            <a href="https://sparcopen.org/open-access/">SPARC on Open Access Journals</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<hr id="open@rit" class="section-divider">
+
+<!-- Ending Note -->
+<section class="relative p-6 sm:p-12">
+    <img class="absolute z-[-1] w-96 left-[2%] top-[-3%] lg:left-[3%] lg:top-[4%]"
+        src="assets/img/background-shapes/end-note-bg.svg" alt="">
+    <div class="lg:mt-24 grid lg:grid-cols-2 inner--small items-center gap-12 justify-center">
+        <div>
+            <h2><b>Note from<br> Open@RIT Team</b></h2>
+            <hr class="subtitle-divider">
+            <p>Open Work Definition is an open source document for everyone who wants to contribute to the open work
+                community.
+                <br><br>
+                Please don't hesitate to contact us, send a pull request, and share your thoughts.
+            </p>
+            <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-8"></a>
+        </div>
+        <img src="./assets/img/illustrations/two-people-talking.svg" class="w-[100%] max-w-[25rem]" alt="">
+    </div>
+</section>

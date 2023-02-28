@@ -1,6 +1,9 @@
-theme: jekyll-theme-minimal
-title: Open Work Definition
-owner: {
-  url: "https://openr.it",
-  name: "Open@RIT"
-}
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/open-work-definition" # the subpath of your site, e.g. /blog
+title: "Open Work Definition" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-postcss-v2
+
+postcss:
+  cache: false

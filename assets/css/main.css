@@ -1,0 +1,247 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+
+@layer base {
+  :root {
+    --light-gray: #f2f2f2;
+    --primary-color: #363636;
+  }
+
+  html {
+    @apply scroll-smooth motion-reduce:scroll-auto overflow-x-hidden;
+  }
+
+  body {
+    @apply overflow-x-hidden;
+  }
+
+  /* ===============
+    Typography
+    =============== */
+
+  body {
+    @apply font-heading text-[#363636] font-light;
+  }
+
+  h1 {
+    @apply text-6xl font-semibold leading-[4rem] mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-normal leading-[2.6rem] mb-5;
+  }
+
+  h3 {
+    @apply text-xl font-black;
+  }
+
+  .subtitle {
+    @apply font-subtitle text-xl font-bold;
+  }
+
+  a {
+    @apply underline transition-all hover:text-blue-400 text-primary-color inline-block;
+  }
+
+  p {
+    @apply max-w-prose;
+  }
+
+  b {
+    @apply font-medium;
+  }
+
+  h1 > b,
+  h2 > b {
+    @apply font-black;
+  }
+
+  /* ===============
+    Buttons
+    =============== */
+
+  .btn {
+    @apply flex justify-center items-center no-underline relative transition-all text-sm text-black h-9 w-44 px-6 border-black border-[1.8px] rounded-full;
+  }
+
+  .btn--github {
+    @apply
+    transition-all
+    duration-200
+    ease-in
+    ;
+  }
+
+  .btn--github:hover {
+    @apply
+    bg-black;
+  }
+
+  @keyframes content-change {
+    0% {
+      content: 'Edit Request';
+    }
+    100% {
+      content: 'Pull Request';
+    }
+  }
+
+  .btn--github::after {
+    @apply
+    /* content-[''] */
+    content-['Request_Edit']
+    text-black
+    ml-0;
+  }
+
+  .btn--github:hover::after {
+    @apply
+    transition-all
+    duration-[300ms]
+    delay-100
+    ease-out
+    text-white
+    ml-7;
+    animation: content-change 0ms ease-in 150ms forwards;
+  }
+
+  .btn--github::before {
+    @apply 
+    absolute 
+    content-[''] 
+    left-[30px]
+    bg-[url('../img/icons/github-logo.svg')] 
+    w-[20px] 
+    h-[20px] 
+    bg-cover
+    opacity-0
+    transition-opacity
+    duration-200
+    ease-in;
+  }
+
+  .btn--github:hover::before {
+    @apply 
+    opacity-100;
+  }
+
+  /* ===============
+    Non-Tailwind classes
+    =============== */
+  .section-divider {
+    @apply my-12 lg:my-28 border-none bg-[#D4D4D4] h-[2px];
+  }
+
+  .subtitle-divider {
+    @apply mt-2 mb-4 w-12 h-1 text-black bg-black;
+  }
+
+  .inner--large {
+    @apply w-full max-w-[65rem] m-auto;
+  }
+
+  .inner--small {
+    @apply w-full max-w-[54rem] m-auto;
+  }
+
+  .accordion-button--gray {
+    @apply relative flex items-center w-full py-4 px-5 text-base text-[#363636] text-left border-0 rounded-none transition outline-none h-[4.4rem];
+  }
+
+  .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    background-color: #f2f2f2;
+  }
+
+  .accordion,
+  .accordion-item,
+  .accordion-button {
+    border-radius: 15px !important;
+  }
+
+  /* ===============
+    Mobile Nav
+    =============== */
+  #mobile-menu {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    top: -80dvh;
+    z-index: -1;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #mobile-menu-toggle:checked ~ #mobile-menu {
+    visibility: visible;
+    top: 64px;
+  }
+
+  /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
+  #mobile-menu-toggle:checked ~ label .hamb-line {
+    background: white;
+  }
+
+  #mobile-menu-toggle:checked ~ label .hamb-line::after {
+    transform: rotate(45deg);
+    transform-origin: 6px -1px;
+  }
+
+  #mobile-menu-toggle:checked ~ label .hamb-line::before {
+    transform: rotate(-45deg);
+    transform-origin: left center;
+  }
+
+  /* Menu Icon */
+  .hamb {
+    cursor: pointer;
+    float: right;
+    padding: 10px 20px;
+  }
+
+  /* use a pseudo element to create a bigger tappable area */
+  .hamb::after {
+    content: "";
+    height: 44px;
+    width: 44px;
+    transform: translate(-10px, -23px);
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .hamb-line {
+    background: #363636;
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 28px;
+    transition: all 0.15s ease-out;
+  }
+
+  .hamb-line::before,
+  .hamb-line::after {
+    background: #363636;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 0.20s ease-out;
+  }
+
+  .hamb-line::before {
+    top: 7px;
+  }
+
+  .hamb-line::after {
+    top: -7px;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
