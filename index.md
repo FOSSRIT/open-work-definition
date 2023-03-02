@@ -29,14 +29,13 @@ title: "Home"
             <h2 class="sm:whitespace-nowrap">Why Are We Using The Term <br><b>Open Work</b>?</h2>
             <p class="subtitle">Goal of Open Work</p>
             <hr class="subtitle-divider">
-            <p >People produce and collaborate on all different types of work within academia and beyond. Different types
-                of
-                works can be released and developed among communities of practice in different ways.
+            <p>People produce and collaborate on all different types of Works within academia and beyond. Different
+                types of Works can be released and developed among communities of practice in different ways.
                 <br><br>
-                To treat each type of Open Work as its own silo hinders the ability for these works to be used
+                To treat each type of Open Work as its own silo hinders the ability for these Works to be used
                 interchangeably among each other.
                 <br><br>
-                We use the term Open Work to talk about a larger theory of practice in which works of all types are
+                We use the term Open Work to talk about a larger theory of practice in which Works of all types are
                 developed, distributed, and collaborated upon.
             </p>
         </div>
@@ -52,31 +51,36 @@ title: "Home"
     <h2 class="text-center mb-10 sm:mb-16"><b>Open Work</b> Definition Version 0.1</h2>
     <div class="inner--small flex justify-center flex-col m-auto">
         <div class="hidden sm:block">
-            <div class="ring-2 ring-black border-b-0 rounded-tr-2xl rounded-tl-2xl bg-[#C5CFD6] h-8 w-full flex items-center">
+            <div
+                class="ring-2 ring-black border-b-0 rounded-tr-2xl rounded-tl-2xl bg-[#C5CFD6] h-8 w-full flex items-center">
                 <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-6 h-[11px] w-[11px] rounded-full"></div>
                 <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
                 <div class="bg-[#F2F2F2] inline-block ring-2 ring-black ml-2 h-[11px] w-[11px] rounded-full"></div>
             </div>
             <div class="ring-2 ring-black rounded-b-3xl rounded-bl-3xl h-fit w-full border-[#F2F2F2] border-[16px]">
                 <div class="bg-white p-5 sm:p-8 lg:p-12 scale-[101%] rounded-lg">
-    
+
                     <h3 class="subtitle">Definition of Open Work</h3>
                     <br>
-                    <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
-                        released into the public domain or under a license recognized by an entity such as, but not limited
+                    <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect
+                        to work products and projects that are
+                        released into the public domain or under a license recognized by an entity such as, but not
+                        limited
                         to,
-                        the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the
+                        the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or
+                        the
                         Open Knowledge Foundation (OKF) with the intent of promoting a robust community of collaboration
                         around
                         the work itself and other work that it may interoperate with.</p>
-    
+
                 </div>
             </div>
         </div>
         <div class="block sm:hidden">
             <h3 class="subtitle">Definition of Open Work</h3>
             <br>
-            <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work products and projects that are
+            <p class="subtitle font-normal text-lg">An Open Work delineates the meaning of “Open” with respect to work
+                products and projects that are
                 released into the public domain or under a license recognized by an entity such as, but not limited
                 to,
                 the Open Source Initiative (OSI), the Free Software Foundation GNU, the Creative Commons (CC) or the
