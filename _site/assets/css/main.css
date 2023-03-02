@@ -326,7 +326,6 @@ html{
 }
 body{
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 /* ===============
     Typography
@@ -337,18 +336,6 @@ body{
   --tw-text-opacity: 1;
   color: rgb(54 54 54 / var(--tw-text-opacity));
 }
-/* fade-in animation for main content (everything but the header & footer) */
-.fade-in {
-    animation: fade-in .3s .1s both;
-  }
-@keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
 h1{
   margin-bottom: 1rem;
   font-size: 3.75rem;
@@ -383,7 +370,7 @@ a{
 }
 a:hover{
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(96 165 250 / var(--tw-text-opacity));
 }
 p{
   max-width: 65ch;
@@ -552,11 +539,11 @@ h1 > b,
     position: absolute;
     left: 0;
     visibility: hidden;
-    top: -90dvh;
+    top: -80dvh;
     z-index: -1;
     width: 100%;
     background-color: white;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
   }
 #mobile-menu-toggle:checked ~ #mobile-menu {
     visibility: visible;
@@ -567,11 +554,11 @@ h1 > b,
     background: white;
   }
 #mobile-menu-toggle:checked ~ label .hamb-line::after {
-    transform: rotate(45deg) translate(4px, 0px);
-    transform-origin: 6px 0px;
+    transform: rotate(45deg);
+    transform-origin: 6px -1px;
   }
 #mobile-menu-toggle:checked ~ label .hamb-line::before {
-    transform: rotate(-45deg) translate(0px, 5px);
+    transform: rotate(-45deg);
     transform-origin: left center;
   }
 /* Menu Icon */
@@ -596,7 +583,7 @@ h1 > b,
     height: 3px;
     position: relative;
     width: 28px;
-    transition: all .2s ease;
+    transition: all 0.15s ease-out;
   }
 .hamb-line::before,
   .hamb-line::after {
@@ -605,7 +592,7 @@ h1 > b,
     height: 100%;
     width: 100%;
     position: absolute;
-    transition: all 0.15s .1s ease-out;
+    transition: all 0.20s ease-out;
   }
 .hamb-line::before {
     top: 7px;
