@@ -9,7 +9,7 @@ title: "Home"
         alt="">
     <div class="flex justify-start items-center py-24 pt-12 sm:pt-20">
         <div class="inner--large">
-            <h1>Open Smork<br>Definition</h1>
+            <h1>Open Work<br>Definition</h1>
             <p class="text-2xl subtitle font-normal">An inclusive definition<br>for all kinds of Work.</p>
             <a href="https://github.com/FOSSRIT/open-work-definition/" class="btn btn--github mt-6 mb-12"></a>
             <p class="text-sm">This project is maintained by <a href="https://openr.it/">Open@RIT</a><br>Hosted on
