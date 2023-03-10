@@ -15,8 +15,8 @@
       @media (prefers-color-scheme: dark) {
         .cls-2 {
           fill: #4c66b0;
-          stroke: #363636;
-          stroke-width: 2px;
+          <!-- stroke: #363636;
+          stroke-width: 2px; -->
         }
         .cls-1 {
           fill: #ffffff;
