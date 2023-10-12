@@ -16,7 +16,7 @@
   }
 
   body {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden overflow-y-hidden;
   }
 
   /* ===============
@@ -25,6 +25,20 @@
 
   body {
     @apply font-heading text-[#363636] font-light;
+  }
+
+  /* fade-in animation for main content (everything but the header & footer) */
+  .fade-in {
+    animation: fade-in .3s .1s both;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   h1 {
@@ -44,7 +58,7 @@
   }
 
   a {
-    @apply underline transition-all hover:text-blue-400 text-primary-color inline-block;
+    @apply underline transition-all hover:text-blue-500 text-primary-color inline-block;
   }
 
   p {
@@ -170,11 +184,11 @@
     position: absolute;
     left: 0;
     visibility: hidden;
-    top: -80dvh;
+    top: -90dvh;
     z-index: -1;
     width: 100%;
     background-color: white;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-out;
   }
 
   #mobile-menu-toggle:checked ~ #mobile-menu {
@@ -188,12 +202,12 @@
   }
 
   #mobile-menu-toggle:checked ~ label .hamb-line::after {
-    transform: rotate(45deg);
-    transform-origin: 6px -1px;
+    transform: rotate(45deg) translate(4px, 0px);
+    transform-origin: 6px 0px;
   }
 
   #mobile-menu-toggle:checked ~ label .hamb-line::before {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translate(0px, 5px);
     transform-origin: left center;
   }
 
@@ -221,7 +235,7 @@
     height: 3px;
     position: relative;
     width: 28px;
-    transition: all 0.15s ease-out;
+    transition: all .2s ease;
   }
 
   .hamb-line::before,
@@ -231,7 +245,7 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    transition: all 0.20s ease-out;
+    transition: all 0.15s .1s ease-out;
   }
 
   .hamb-line::before {
